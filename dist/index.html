@@ -9,11 +9,34 @@
   <!-- <link rel="stylesheet" href="/src/style.css"> -->
   <title>Biznet</title>
 </head>
-<body class="bg-blue-700">
+<body class="bg-blue-200">
   <div class="container">
+    <!-- BUTTON COMPONENT -->
     <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Find Friends</button>
-
+    <!-- Styles in a seperate CSS folder using @apply directive -->
     <button class="btn btn-blue">Find Groups</button>
+
+    <!-- ALERT COMPONENT -->
+    <div class="bg-red-300 border border-red-400 text-red-700 px-4 py-3 rounded relative my-5" role="alert">
+      <strong class="font-bold">Alert!</strong>
+      <span class="block sm:inline">Please update your password!</span>
+    </div>
+
   </div>
+
+  <!-- CARD COMPONENT -->
+  <div class="sm:max-w-md max-w-sm mx-auto flex flex-col px-6 py-4 bg-white rounded-lg shadow-xl sm:flex-row">
+    <div class="flex-shrink-0">
+      <img src="img/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="" class="h-28 w-28 rounded-full mx-auto sm:mx-0">
+    </div>
+    <div class="sm:ml-6 mt-3 sm:mt-1 text-center sm:text-left">
+      <h4 class="text-xl text-gray-900">SALMA EL BARMAKI</h4>
+      <p class="text-base text-gray-600">You have a new message</p>
+      <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, aliquam!</p>
+      <a href="#" class="rounded-full border border-green-500 py-2 px-7 block w-36 text-center mt-2 text-base text-green-800 normal-case mx-auto sm:mx-0 hover:bg-green-600 hover:text-white transition duration-500" role="button" >See more</a>
+    </div>
+  </div>
+
+
 </body>
 </html>
