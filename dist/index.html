@@ -10,6 +10,23 @@
   <title>Biznet</title>
 </head>
 <body class="bg-blue-200">
+  <!-- NAVBAR COMPONENT -->
+  <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 mb-5">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <span class="font-bold text-3xl">Biznet</span>
+    </div>
+
+    <div class="sm:flex sm:items-center sm:justify-center sm:w-auto w-full">
+      <div class="text-md sm:flex-grow w-full">
+        <a href="#" class="block sm:inline-block my-3 sm:my-0 text-gray-300 hover:text-white mr-4">Your Business</a>
+        <a href="#" class="block sm:inline-block sm:my-0 text-gray-300 hover:text-white mr-4 my-3">Networking</a>
+        <a href="#" class="block sm:inline-block sm:my-0 text-gray-300 hover:text-white mr-4 my-3">Blog</a>
+        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:bg-gray-500 sm:my-0 my-3">Login</a>
+      </div>
+    </div>
+  </nav>
+
+
   <div class="container">
     <!-- BUTTON COMPONENT -->
     <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded">Find Friends</button>
@@ -34,6 +51,40 @@
       <p class="text-base text-gray-600">You have a new message</p>
       <p class="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, aliquam!</p>
       <a href="#" class="rounded-full border border-green-500 py-2 px-7 block w-36 text-center mt-2 text-base text-green-800 normal-case mx-auto sm:mx-0 hover:bg-green-600 hover:text-white transition duration-500" role="button" >See more</a>
+    </div>
+  </div>
+
+
+  <!-- CARD COLUMNS -->
+  <div class="container mt-5">
+    <!-- Flex on md screens and up -->
+    <div class="md:flex">
+      <div class="flex-1 text-gray-700 text-center bg-gray-300 px-5 py-5 m-2 rounded">
+        <div class="lg:flex lg:items-center">
+          <div class="lg:flex-shrink-0">
+            <img src="/dist/img/chart.jpg" alt="" class="rounded-lg lg:w-64">
+          </div>
+          <div class="mt-4 lg:mt-0 lg:ml-6">
+            <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+              Networking
+            </div>
+            <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding connections to help your business grow</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1 text-gray-700 text-center bg-gray-300 px-5 py-5 m-2 rounded">
+        <div class="lg:flex lg:items-center">
+          <div class="lg:flex-shrink-0">
+            <img src="/dist/img/computer.jpg" alt="" class="rounded-lg lg:w-64">
+          </div>
+          <div class="mt-4 lg:mt-0 lg:ml-6">
+            <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+              Marketing
+            </div>
+            <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your own business</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
